@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="130" viewBox="0 0 410 130">
+  <defs>
+    <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowMagenta" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowOrange" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- cat head: pointed ears, face outline, eyes, nose and whiskers -->
+  <path d="M10 30 L24 54 M64 30 L50 54" stroke="#0089A8" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M10 30 C6 50 6 76 14 88 C22 98 52 98 60 88 C68 76 68 50 64 30 L50 54 C42 50 32 50 24 54 Z"
+        fill="none" stroke="#0089A8" stroke-width="3" stroke-linejoin="round" filter="url(#glowCyan)"/>
+  <path d="M15 40 L22 52 M59 40 L52 52" stroke="#C21BA3" stroke-width="2.5" stroke-linecap="round" filter="url(#glowMagenta)"/>
+  <ellipse cx="26" cy="68" rx="4" ry="5.5" fill="#7A3FD1"/>
+  <ellipse cx="48" cy="68" rx="4" ry="5.5" fill="#7A3FD1"/>
+  <path d="M33 76 L41 76 L37 81 Z" fill="#C96A00" filter="url(#glowOrange)"/>
+  <path d="M37 81 L37 84 M37 84 C34 87 31 87 29 85 M37 84 C40 87 43 87 45 85" stroke="#C21BA3" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M2 74 L18 77 M2 84 L18 82 M72 74 L56 77 M72 84 L56 82" stroke="#0089A8" stroke-width="1.8" stroke-linecap="round"/>
+
+  <text x="88" y="78" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700"
+        fill="#0089A8" filter="url(#glowCyan)">Kit<tspan fill="#C21BA3" filter="url(#glowMagenta)">ty</tspan></text>
+
+  <text x="89" y="100" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" letter-spacing="3"
+        fill="#7A3FD1">REDMINE THEME</text>
+</svg>

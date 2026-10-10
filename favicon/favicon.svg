@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <filter id="g" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#F1EDFA"/>
+  <path d="M10 12 C8 28 8 44 14 50 C22 58 42 58 50 50 C56 44 56 28 54 12 L44 24 C38 21 26 21 20 24 Z"
+        fill="none" stroke="#0089A8" stroke-width="3.5" stroke-linejoin="round" filter="url(#g)"/>
+  <ellipse cx="23" cy="36" rx="3.5" ry="5" fill="#7A3FD1"/>
+  <ellipse cx="41" cy="36" rx="3.5" ry="5" fill="#7A3FD1"/>
+  <path d="M28.5 43 L35.5 43 L32 47 Z" fill="#C96A00"/>
+  <path d="M32 47 C29 50 26 50 24 48 M32 47 C35 50 38 50 40 48" stroke="#C21BA3" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+</svg>
