@@ -1,5 +1,5 @@
 @import url(/application.css);
-/* Kitty v1.0.0 */
+/* Kitty v1.1.0 */
 
 body {
     color: #201A38;
@@ -91,6 +91,17 @@ select[multiple="multiple"] option:checked {
     padding: 4px 0 0 0;
     background-size: 250% 200%;
     animation: gradient 10s ease infinite;
+}
+
+#header h1 .breadcrumbs,
+#header h1 .breadcrumbs a,
+#header h1 .breadcrumbs a:link,
+#header h1 .breadcrumbs a:visited {
+    color: #0089A8;
+}
+
+#header h1 .breadcrumbs a:hover {
+    color: #C21BA3;
 }
 
 #header > h1 {
