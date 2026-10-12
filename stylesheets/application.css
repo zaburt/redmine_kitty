@@ -1,5 +1,5 @@
 @import url(/application.css);
-/* Kitty v1.1.0 */
+/* Kitty v1.2.0 */
 
 body {
     color: #201A38;
@@ -295,7 +295,7 @@ body.has-main-menu #header {
 }
 
 #main-menu li a.new-object {
-    background-color: #FF8C1A;
+    background: linear-gradient(180deg, #FF63E4 0%, #FF2BD6 100%);
     border-radius: 3px;
     border-color: #D6D6E2;
     color: #17102A;
@@ -920,11 +920,12 @@ div.issue #relations table.list th {
 .pagination ul.pages li.page a:hover,
 .pagination ul.pages li.page a:active {
     color: #17102A;
-    background: #FF8C1A;
+    background: linear-gradient(180deg, #FF63E4 0%, #FF2BD6 100%);
+    box-shadow: 0 2px 8px rgba(255, 43, 214, 0.4);
 }
 
 .pagination ul.pages li.page:hover {
-    background: #FF8C1A;
+    background: linear-gradient(180deg, #FF63E4 0%, #FF2BD6 100%);
     color: #17102A;
     border-color: #D6D6E2;
 }
@@ -999,7 +1000,7 @@ input[type="submit"],
 input[type="submit"][name="continue"],
 input[type="submit"].small,
 input[type="submit"].button-small {
-    background-color: #FF8C1A;
+    background: linear-gradient(180deg, #FF63E4 0%, #FF2BD6 100%);
     color: #17102A;
     border-color: #D6D6E2; 
     transition: 0.3s;
@@ -1013,7 +1014,7 @@ input[type="submit"].button-small {
 #ajax-modal p.buttons input[type="submit"],
 .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-close,
 input[type="submit"] {
-    background-color: #FF8C1A;
+    background: linear-gradient(180deg, #FF63E4 0%, #FF2BD6 100%);
     color: #17102A;
     border-color: #D6D6E2; 
     font-size: 14px;
@@ -1024,8 +1025,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
     border-color: #00F0FF;
     color: #06040B;
-    background-color: #FF2BD6;
-    box-shadow: 0 0 12px rgba(255, 43, 214, 0.65);
+    background: linear-gradient(135deg, #FF8CEB 0%, #FF4FDD 55%, #5AE6F5 100%);
+    box-shadow: 0 0 12px rgba(255, 43, 214, 0.65), 0 4px 18px rgba(0, 240, 255, 0.4);
 }
 
 .attachments_fields input.filename,
@@ -1472,9 +1473,9 @@ div.flash.notice,
     padding: 0;
 }
 
-#errorExplanation:has(svg),
-    #flash_notice:has(svg) {
-    padding-left: 3rem;
+div.flash:has(svg),
+#errorExplanation:has(svg) {
+    padding-inline-start: 3rem;
 }
 
 #errorExplanation ul li {
@@ -1780,7 +1781,7 @@ input[type="submit"],
 input[type="submit"][name="continue"],
 input[type="submit"].small,
 input[type="submit"].button-small {
-    box-shadow: 0 0 10px rgba(255, 140, 26, 0.45);
+    box-shadow: 0 2px 10px rgba(255, 43, 214, 0.5), 0 4px 16px rgba(255, 120, 235, 0.35);
 }
 
 input[type="text"]:focus,

@@ -4,6 +4,14 @@ All notable changes to Kitty are documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/) and the
 project uses [Semantic Versioning](https://semver.org/).
 
+## [1.2.0] - 2026-10-13
+
+### Changed
+- Orange buttons are now a pink gradient based on `#FF2BD6`, with a pink glow and a pink-to-cyan hover.
+
+### Fixed
+- Flash and error message icons overflowed to the left of the box.
+
 ## [1.1.0] - 2026-10-13
 
 ### Fixed
