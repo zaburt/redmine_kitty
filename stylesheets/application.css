@@ -1,5 +1,5 @@
 @import url(/application.css);
-/* Kitty v1.2.0 */
+/* Kitty v1.2.1 */
 
 body {
     color: #201A38;
@@ -453,16 +453,24 @@ a.wiki-page:not(.new) {
   padding: 0 5px;
 }
 
-a.wiki-page.new {
-   background: #B3005C;
-   color: #FFFFFF;
-   border: 1px solid #7A0E5C;
+a.wiki-page.new,
+div.wiki a.wiki-page.new {
+  background: #FFE6FA;
+  color: #A3158F;
+  border: 1px dashed #FF2BD6;
   border-radius: 5px;
   padding: 0 5px;
 }
 
+a.wiki-page.new:hover,
+div.wiki a.wiki-page.new:hover {
+  background: #FF2BD6;
+  color: #17102A;
+  border-style: solid;
+}
+
 div.wiki a.new {
-   color: #B3005C;
+   color: #A3158F;
 }
 
 .wiki-preview {

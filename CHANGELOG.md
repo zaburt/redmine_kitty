@@ -4,6 +4,11 @@ All notable changes to Kitty are documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/) and the
 project uses [Semantic Versioning](https://semver.org/).
 
+## [1.2.1] - 2026-10-13
+
+### Fixed
+- Links to wiki pages that do not exist yet were unreadable (red text on red background); they are now a pink chip with a dashed border.
+
 ## [1.2.0] - 2026-10-13
 
 ### Changed
