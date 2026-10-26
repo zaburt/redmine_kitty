@@ -1,5 +1,5 @@
 @import url(/application.css);
-/* Kitty v1.2.1 */
+/* Kitty v1.2.2 */
 
 body {
     color: #201A38;
@@ -743,7 +743,8 @@ table.list tbody tr.priority-low2 td.id a {
 }
 
 table.list tbody tr.priority-lowest td.id a {
-    color: #FFE9FB;
+    color: #FFFFFF;
+    background: #4A1560;
 }
 
 table.list tbody tr.priority-low2:hover td,
@@ -753,7 +754,17 @@ table.list tbody tr.priority-low2:hover td a {
 
 table.list tbody tr.priority-lowest:hover td,
 table.list tbody tr.priority-lowest:hover td a {
-    color: #FFE9FB;
+    color: #FFFFFF;
+}
+
+tr.odd.priority-lowest:hover, tr.even.priority-lowest:hover,
+table.list tbody tr.priority-lowest:hover {
+    background: #7D249C !important;
+}
+
+table.list tbody tr.priority-lowest:hover td.id a {
+    color: #FFFFFF;
+    background: #4A1560;
 }
 
 table.list th,

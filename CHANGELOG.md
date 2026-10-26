@@ -4,6 +4,11 @@ All notable changes to Kitty are documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/) and the
 project uses [Semantic Versioning](https://semver.org/).
 
+## [1.2.2] - 2026-10-26
+
+### Fixed
+- Issue ID links and the hovered row on lowest-priority issue list rows were unreadable (pale text on a pale chip/background); they now use white text on dark purple.
+
 ## [1.2.1] - 2026-10-13
 
 ### Fixed
